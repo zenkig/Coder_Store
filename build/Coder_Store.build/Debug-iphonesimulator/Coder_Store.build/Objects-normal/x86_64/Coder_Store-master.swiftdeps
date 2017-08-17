@@ -1,0 +1,9 @@
+version: "Apple Swift version 4.0 (swiftlang-900.0.59 clang-900.0.34.2)"
+options: "682bc9ae1af0676b8127f82f24435124"
+build_time: [1502953241, 426344000]
+inputs:
+  "/Users/zenkig/Documents/Work/Design+Code/Coder_Store/Coder_Store/Controller/ViewController.swift": [1502953241, 0]
+  "/Users/zenkig/Documents/Work/Design+Code/Coder_Store/Coder_Store/Model/Category.swift": [1502943058, 0]
+  "/Users/zenkig/Documents/Work/Design+Code/Coder_Store/Coder_Store/Service/DataService.swift": [1502952161, 0]
+  "/Users/zenkig/Documents/Work/Design+Code/Coder_Store/Coder_Store/AppDelegate.swift": [1502938336, 0]
+  "/Users/zenkig/Documents/Work/Design+Code/Coder_Store/Coder_Store/View/CategoryCell.swift": [1502952650, 0]

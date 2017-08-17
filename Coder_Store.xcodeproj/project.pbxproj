@@ -13,6 +13,9 @@
 		24A01B181F453C6000348F8D /* Coder_Store.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 24A01B161F453C6000348F8D /* Coder_Store.xcdatamodeld */; };
 		24A01B1A1F453C6000348F8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24A01B191F453C6000348F8D /* Assets.xcassets */; };
 		24A01B1D1F453C6000348F8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24A01B1B1F453C6000348F8D /* LaunchScreen.storyboard */; };
+		24A01B281F45474E00348F8D /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A01B271F45474E00348F8D /* CategoryCell.swift */; };
+		24A01B2A1F454A9F00348F8D /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A01B291F454A9F00348F8D /* Category.swift */; };
+		24A01B2D1F454ED200348F8D /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A01B2C1F454ED200348F8D /* DataService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		24A01B191F453C6000348F8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		24A01B1C1F453C6000348F8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		24A01B1E1F453C6000348F8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24A01B271F45474E00348F8D /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		24A01B291F454A9F00348F8D /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		24A01B2C1F454ED200348F8D /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +62,11 @@
 		24A01B0E1F453C6000348F8D /* Coder_Store */ = {
 			isa = PBXGroup;
 			children = (
+				24A01B2B1F454E9E00348F8D /* Service */,
+				24A01B261F4546E900348F8D /* View */,
+				24A01B251F4546C000348F8D /* Model */,
+				24A01B241F4546B000348F8D /* Controller */,
 				24A01B0F1F453C6000348F8D /* AppDelegate.swift */,
-				24A01B111F453C6000348F8D /* ViewController.swift */,
 				24A01B131F453C6000348F8D /* Main.storyboard */,
 				24A01B191F453C6000348F8D /* Assets.xcassets */,
 				24A01B1B1F453C6000348F8D /* LaunchScreen.storyboard */,
@@ -65,6 +74,38 @@
 				24A01B161F453C6000348F8D /* Coder_Store.xcdatamodeld */,
 			);
 			path = Coder_Store;
+			sourceTree = "<group>";
+		};
+		24A01B241F4546B000348F8D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				24A01B111F453C6000348F8D /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		24A01B251F4546C000348F8D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				24A01B291F454A9F00348F8D /* Category.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		24A01B261F4546E900348F8D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				24A01B271F45474E00348F8D /* CategoryCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		24A01B2B1F454E9E00348F8D /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				24A01B2C1F454ED200348F8D /* DataService.swift */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,8 +180,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				24A01B121F453C6000348F8D /* ViewController.swift in Sources */,
+				24A01B2A1F454A9F00348F8D /* Category.swift in Sources */,
 				24A01B181F453C6000348F8D /* Coder_Store.xcdatamodeld in Sources */,
+				24A01B2D1F454ED200348F8D /* DataService.swift in Sources */,
 				24A01B101F453C6000348F8D /* AppDelegate.swift in Sources */,
+				24A01B281F45474E00348F8D /* CategoryCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
